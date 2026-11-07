@@ -12,5 +12,6 @@ add_test(NAME dictionary_case_insensitive
         -DEXE=$<TARGET_FILE:dictionary>
         -DINPUT=${CMAKE_CURRENT_SOURCE_DIR}/tests/dictionary_case.in
         "-DEXPECT=Алгоритм"
-        -P ${LAB_ROOT}/cmake/run_with_input.cmake)
+        -P ${LAB_ROOT}/cmake/run_with_input.cmake
+    WORKING_DIRECTORY $<TARGET_FILE_DIR:dictionary>)
 set_tests_properties(dictionary_case_insensitive PROPERTIES TIMEOUT 10)
