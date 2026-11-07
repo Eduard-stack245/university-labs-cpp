@@ -1,0 +1,6 @@
+Rent 0.2
+Electricity 0.09
+Gas 1.10
+HotWater 1.79
+ColdWater 0.43
+Heating 0.42

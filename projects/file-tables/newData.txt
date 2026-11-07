@@ -1,0 +1,3 @@
+shirt;red;42;19.9
+jeans;blue;48;39.5
+jacket;black;50;89

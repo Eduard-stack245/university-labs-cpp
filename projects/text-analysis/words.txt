@@ -1,0 +1,2 @@
+Hello (inside parentheses) world
+This is the last line (and some more) of the text file

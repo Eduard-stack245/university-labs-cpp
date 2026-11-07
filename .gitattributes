@@ -1,0 +1,7 @@
+# Keep text normalized across development platforms
+* text=auto
+*.sh text eol=lf
+*.cmake text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.svg text eol=lf
